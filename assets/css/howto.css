@@ -1,0 +1,21 @@
+.HowViewContainer {
+    max-width: 800px;
+    padding: 10px;
+    color: #555;
+}
+.HowViewContainer .header {
+    font-weight: normal;
+}
+.HowViewContainer p {
+    line-height: 16px;
+    text-indent: 10px;
+}
+.HowViewContainer a {
+    color: #C00403;
+    cursor: pointer;
+}
+.HowViewContainer .code {
+    border: 1px solid #999;
+    background: #DDD;
+    padding: 5px;
+}

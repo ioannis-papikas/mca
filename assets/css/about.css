@@ -1,0 +1,19 @@
+.AboutViewContainer {
+    max-width: 800px;
+    padding: 10px;
+    color: #555;
+}
+
+.AboutViewContainer .header {
+    font-weight: normal;
+}
+
+.AboutViewContainer p {
+    line-height: 16px;
+    text-indent: 10px;
+}
+
+.AboutViewContainer a {
+    color: #c00403;
+    cursor: pointer;
+}

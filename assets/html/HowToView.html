@@ -1,0 +1,26 @@
+<h2>Implementation How-To</h2>
+<p>This application implements the path-finding algorithm in 2 simple steps:</p>
+<ol>
+    <li>Add or choose from a template the map to search into.</li>
+    <li>Set a starting point and a goal point and hit 'Search'.</li>
+</ol>
+<p>The algorithm performs a map pre-process before the first search for each map in order to create the search graph. This could take a while (5-10 seconds), so be patient. After the pre-process is done, each search does not take more than 2-3 seconds (it dependes on the map) to be completed.</p>
+<h3>Map Format</h3>
+<p>If you wish to create your own map and test the algorithm to custom paths, you have to format the map in a specific, but simple, structure so that it will be recognized properly.</p>
+<p>In the first two lines declare the size of the map like this:</p>
+<pre class="code">
+height 512
+width 512
+</pre>
+<p>After the declaration lines, you present the map. The map must be represented in plain text. You can use any character you like, the map recognazies a valid path point as the symbol '.'. You can use any character you like for the walls. Example:</p>
+<pre class="code">
+@@@@@@@@@@@@@@@@@@@@
+@.........@.........
+@...................
+@.........@.........
+@...@@@@@@@@@@@@....
+@...@.....@....@....
+@...@.....@....@@@@.
+@.........@.........
+</pre>
+<p>Please limit the map size up to 512x512, for better display. The algorithm is tested for up to 2048x2048. Thank you.</p>
